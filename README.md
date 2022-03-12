@@ -1,24 +1,7 @@
 # simple-mortgage-calc
 
-## Project setup
-```
-npm install
-```
+A quick and simple UI for calculating monthly payments for a mortgage you are considering. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Built with Vue3
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Deployment:
