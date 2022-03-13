@@ -11,9 +11,20 @@ function MonthlyPayment(props) {
                 margin: "auto",
             }}
         >
-            <h2>Payment</h2>
-            <p>You'll be paying: </p>
-            <Box mb={3}>$ {monthlyAmount} each month.</Box>
+            {isNaN(monthlyAmount) ? (
+                <>
+                    <h2>
+                        Please ensure you complete all fields before
+                        calculating.
+                    </h2>
+                </>
+            ) : (
+                <>
+                    <h2>Payment</h2>
+                    <p>You'll be paying: </p>
+                    <Box mb={3}>$ {monthlyAmount} each month.</Box>
+                </>
+            )}
         </Box>
     );
 }
