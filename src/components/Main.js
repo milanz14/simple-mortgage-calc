@@ -43,6 +43,7 @@ function Main() {
 
     const handleButtonClick = () => {
         // Perform the monthly calculation here, set the amount and display it on the page
+
         const monthly =
             (loanAmount *
                 (interestRate / 100 / 12) *
@@ -60,7 +61,7 @@ function Main() {
         setRepaymentTime(0);
         setInterestRate(0);
         setLoanAmount(0);
-        setMonthlyPayment(0);
+        setMonthlyPayment(null);
     };
 
     return (
