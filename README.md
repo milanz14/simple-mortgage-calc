@@ -5,4 +5,4 @@ A quick and simple UI for calculating monthly payments for a mortgage you are co
 ### Built with love with React
 
 # Deployment:
-https://simple-mortgage-calc.surge.sh/
+https://simple-mortgage-calc.netlify.app/
